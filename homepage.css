@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins' , sans-serif;
+}
+body{
+    background-color: #efefef;
+    
+}
+nav{
+    width: 99%;
+    background-color: white;
+    padding: .5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.navLeft{
+    width: 17%;
+    margin: auto;
+}
+.logo{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.navLeft .logo h1{
+    margin: auto;
+}
+.navLeft .logo img{
+    width: 50px;
+}
+.navCenter {
+    width: 15%;
+    margin: auto;
+  
+}
+.navCenter ul{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.navCenter ul, li{
+    list-style: none;
+    
+}
+.navCenter ul li a img{
+    width:35px;
+}
+.navRight{
+    display: flex;
+    justify-content: space-between;
+    width: 17%;
+    margin: auto;
+}
+.navRight section{
+    display: flex;
+    justify-content: space-between;
+}
+.searchBox{
+    margin: auto;
+    display: flex;
+    border: solid black .1rem;
+    padding:  5px 0;
+    padding-left: 5px;
+    width: 200px;
+    border-radius: 25px;
+    margin: auto;
+}
+.searchBox img{
+    width: 20px;
+    display: flex;
+    cursor: pointer;
+}
+.searchBox input{
+    border: none;
+    outline: 0;
+}
+.user img{
+    width: 40px;
+    margin: auto;
+    margin-left: .5rem;
+}
+.subMenuWrap{
+    position: absolute;
+    top: 8%;
+    right: 10%;
+    width: 320px;
+    max-height: 0px ;
+    overflow: hidden;
+}
+.subMenuWrap.open-menu{
+    max-height: 400px;
+}
+.userMenu{
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+}
+.userInfo{
+    display: flex;
+    align-items: center;
+}
+.userInfo h3{
+    font-weight: bolder;
+}
+.userInfo img{
+    margin-right: 0.9rem;
+    width: 60px;
+}
+.userMenu hr{
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background-color: #ccc;
+    margin: 15px 0 10px;
+}
+.logout{
+    margin: 5px;
+}
+.logout a{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+}
+.logout a img{
+    width: 30px;
+    margin-right: 1rem;
+}
+.sectionContainer{
+    display: flex;
+    align-items: center;
+    
+}
+.leftSection{
+width: 30%;
+background-color:  black;
+}
+.mainSection{
+    width: 40%;
+}
+.rightSection{
+    width: 30%;
+    height: 100%;
+    background-color: black;
+}

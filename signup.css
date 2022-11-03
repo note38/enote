@@ -1,0 +1,68 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #202122;
+}
+.container{
+    width: 30%;
+    background-color: #efefef;
+    margin: auto;
+    margin-top: 10%;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+}
+.userName{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%
+}
+.firstName input , .lastName input{
+    width: 80%;
+    padding: 8px;
+    font-size: large;
+    margin: 1.2rem;
+}
+.formControl{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.email ,.password{
+    width: 100%;
+}
+.email input , .password input {
+    width: 85%;
+    padding: 8px;
+    font-size: large;
+    margin-bottom: 1rem;
+}
+form p {
+    margin: 1rem;
+    width: 95%;
+    text-align: center;
+}
+.submit{
+    width: 50%;
+    margin: auto;
+}
+.submit input{
+    width: 50%;
+    padding: 8px;
+    font-size: large;
+}
+.haveAcc {
+    margin: 1rem;
+    font-size: large;
+}
+.haveAcc a {
+    text-decoration: none;
+}
